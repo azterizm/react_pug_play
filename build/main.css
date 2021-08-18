@@ -1,0 +1,37 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader/dist/cjs.js!./src/App.styl ***!
+  \*********************************************************************************************************/
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Chillax, sans-serif;
+  text-align: center;
+}
+p,
+button {
+  font-family: General Sans;
+  color: #000;
+  transition: color 0.5s;
+}
+p:hover,
+button:hover {
+  color: #fff;
+}
+button {
+  border: 1px solid #000;
+  background: #fff;
+  transition: background 0.5s;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background: #808080;
+}
+
